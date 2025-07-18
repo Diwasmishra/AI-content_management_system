@@ -89,7 +89,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'aicms_db',
         'USER': 'root',
-        'PASSWORD': 'Dm@8850247970',
+        'PASSWORD': '*************',
         'HOST': '127.0.0.1',
         'PORT': '3306',
     }
