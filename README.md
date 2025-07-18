@@ -133,6 +133,12 @@ App runs at: http://localhost:3000
 
 ---
 
+### 📸 Project Screenshots
+You can view sample screenshots of the project here:
+[📄 Click to view AICMS_Screenshots.pdf](https://drive.google.com/file/d/1658TA63s1T8YyIzoiYpIQgiMxfp7nUKr/view?usp=sharing)
+
+---
+
 ### 👨‍💻 About Me
 
 Hi, I'm Diwas Mishra — a full-stack developer passionate about building intelligent, real-world applications using modern tools and private AI.
