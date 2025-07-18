@@ -137,7 +137,7 @@ App runs at: http://localhost:3000
 
 Hi, I'm Diwas Mishra — a full-stack developer passionate about building intelligent, real-world applications using modern tools and private AI.
 
-🌐 LinkedIn
+[🌐 LinkedIn](https://www.linkedin.com/in/diwas-mishra-b2109a2a9)
 
 📧 mishradiwasbrijesh@gmail.com
 
