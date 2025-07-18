@@ -1,6 +1,6 @@
 # AI-Based Content Management System (Next.js + Django + MySQL + Mistral 7B)
 
-An intelligent, role-based content management platform that combines a modern Next.js frontend, a powerful Django backend, a MySQL database, and AI integration via Mistral 7B hosted locally through LM Studio. Built to manage article workflows with AI-powered writing support — all in one full-stack solution.
+An intelligent, role-based content management platform that combines a modern Next.js frontend, a powerful Django backend, a MySQL database, and AI integration via Mistral 7B hosted locally through LM Studio. Built to streamline article workflows with AI-powered writing assistance — all in a seamless full-stack solution.
 
 ## 🔧 Tech Stack
 
@@ -31,7 +31,7 @@ AICMS/
 ├── frontend/ # Next.js frontend
 │ ├── pages/ # Routes for each role dashboard
 │ ├── components/ # Reusable UI components
-│ └── utils/ai.js # Connects to LM Studio
+│ └── utils/ai.js # Connects frontend to local LM Studio
 ├── backend/ # Django backend
 │ ├── cmsapi/ # Article APIs and logic
 │ ├── users/ # Role-based auth system
@@ -47,8 +47,8 @@ AICMS/
 - LM Studio runs locally at `http://localhost:1234`  
 - Frontend sends article prompts or queries to this local server  
 - Mistral 7B (`mistral-7b-instruct-v0.2`) responds with suggestions or summaries  
-- AI supports authors while writing or editing content  
-
+- AI assists authors in drafting and refining content
+- 
 > 💡 No external OpenAI API needed. Completely free, offline, and secure.
 
 ---
@@ -95,41 +95,41 @@ npm run dev
 App runs at: http://localhost:3000
 ### 7. Run LM Studio (AI Assistant)
 
-# - Download from https://lmstudio.ai
+ - Download from https://lmstudio.ai
 
-# - Load mistral-7b-instruct-v0.2 GGUF model
+ - Load mistral-7b-instruct-v0.2 GGUF model
 
-# - Enable API server on http://localhost:1234
+ - Enable API server on http://localhost:1234
 
-# - Keep LM Studio running while using the app
-
----
-
-### 🧹 Best Practices Followed
-
-## 1] .env file is excluded from version control
-
-## 2] Self-hosted Mistral 7B model — no external API keys
-
-## 3] Modular backend and frontend architecture
-
-## 4] Role-based access separation and clean routing
-
-## 5] AI integration without exposing any credentials
+ - Keep LM Studio running while using the app
 
 ---
 
-### 🔮 Future Roadmap
+## 🧹 Best Practices Followed
 
-## 🧠 AI-based plagiarism detection
+#### 1] .env file is excluded from version control
 
-## 🧾 Markdown support in articles
+#### 2] Self-hosted Mistral 7B model — no external API keys
 
-## 📤 Export articles to PDF
+#### 3] Modular backend and frontend architecture
 
-## 📨 Notification system for article review updates
+#### 4] Role-based access separation and clean routing
 
-## 🛡️ Blockchain-based verification of published content
+#### 5] AI integration without exposing any credentials
+
+---
+
+## 🔮 Future Roadmap
+
+#### 🧠 AI-based plagiarism detection
+
+#### 🧾 Markdown support in articles
+
+#### 📤 Export articles to PDF
+
+#### 📨 Notification system for article review updates
+
+#### 🛡️ Blockchain-based verification of published content
 
 ---
 
@@ -138,4 +138,6 @@ App runs at: http://localhost:3000
 Hi, I'm Diwas Mishra — a full-stack developer passionate about building intelligent, real-world applications using modern tools and private AI.
 
 🌐 LinkedIn
+
 📧 mishradiwasbrijesh@gmail.com
+
